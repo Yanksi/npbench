@@ -1,209 +1,80 @@
 ***** Testing DaCe CPU with adi on the S dataset *****
-NumPy - default - validation: 17ms
+NumPy - default - validation: 15ms
 Parsing complete.
-Applied 3 MoveLoopIntoMap.Applied 4 MoveLoopIntoMap.DaCe CPU - auto_opt_omp_parallel - first/validation: 31ms
+Applied 4 MoveLoopIntoMap.DaCe CPU - auto_opt_omp_parallel - first/validation: 6ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
 DaCe CPU - auto_opt_omp_parallel - median: 0ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 26ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 13ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 28ms
+DaCe CPU - auto_opt_omp_tasking - median: 11ms
 ***** Testing DaCe CPU with arc_distance on the S dataset *****
-NumPy - default - validation: 7ms
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-'Variable temp has not been defined'
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 11ms
+NumPy - default - validation: 17ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 4ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
 DaCe CPU - auto_opt_omp_parallel - median: 1ms
-***** Testing DaCe CPU with atax on the S dataset *****
-NumPy - default - validation: 27ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 57ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 59ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 169ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 265ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 183ms
+DaCe CPU - auto_opt_omp_tasking - median: 271ms
+***** Testing DaCe CPU with atax on the S dataset *****
+NumPy - default - validation: 18ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 29ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 17ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 122ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 121ms
 ***** Testing DaCe CPU with azimint_hist on the S dataset *****
-NumPy - default - validation: 9ms
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-'Variable __tmp5 has not been defined'
-Traceback
+NumPy - default - validation: 7ms
 DaCe CPU - auto_opt_omp_parallel - first/validation: 15ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 12ms
+DaCe CPU - auto_opt_omp_parallel - median: 4ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 2276ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 2307ms
 ***** Testing DaCe CPU with azimint_naive on the S dataset *****
-NumPy - default - validation: 244ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 94ms
+NumPy - default - validation: 203ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 75ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 87ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 98ms
+DaCe CPU - auto_opt_omp_parallel - median: 66ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 64ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 85ms
+DaCe CPU - auto_opt_omp_tasking - median: 63ms
 ***** Testing DaCe CPU with bicg on the S dataset *****
-NumPy - default - validation: 24ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 105ms
+NumPy - default - validation: 15ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 35ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 43ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 161ms
+DaCe CPU - auto_opt_omp_parallel - median: 24ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 140ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 169ms
+DaCe CPU - auto_opt_omp_tasking - median: 130ms
 ***** Testing DaCe CPU with cavity_flow on the S dataset *****
 NumPy - default - validation: 9ms
 Parsing complete.
-DaCe CPU - auto_opt_omp_parallel - first/validation: 260ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 4ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 192ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 250ms
+DaCe CPU - auto_opt_omp_parallel - median: 4ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 205ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 338ms
+DaCe CPU - auto_opt_omp_tasking - median: 110ms
 ***** Testing DaCe CPU with channel_flow on the S dataset *****
-NumPy - default - validation: 612ms
+NumPy - default - validation: 575ms
 Parsing complete.
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-Compiler failure:
-Consolidate compiler generated dependencies of target auto_opt_omp_tasking
-[ 25%] Building CXX object CMakeFiles/auto_opt_omp_tasking.dir/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp.o
-In file included from /mnt/c/Users/51140/Documents/ETH/DHPC/dace/dace/codegen/../runtime/include/dace/dace.h:14,
-                 from /mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:2:
-/mnt/c/Users/51140/Documents/ETH/DHPC/dace/dace/codegen/../runtime/include/dace/types.h: In constructor ‘dace::half::half(float)’:
-/mnt/c/Users/51140/Documents/ETH/DHPC/dace/dace/codegen/../runtime/include/dace/types.h:92:28: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
-   92 |             uint32_t x = *((uint32_t*)&f);
-      |                           ~^~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp: In function ‘void __program_auto_opt_omp_tasking_internal(auto_opt_omp_tasking_t*, long long int*, double*, double*, double*, double, double, double, double, long long int, double, long long int, long long int, double)’:
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:682:28: warning: unused variable ‘__s11_n59__out_n60IN___tmp53’ [-Wunused-variable]
-  682 |                     double __s11_n59__out_n60IN___tmp53;
-      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:693:25: error: ‘__s11_n59__out_n60IN___tmp53’ was not declared in this scope
-  693 |                         __s11_n59__out_n60IN___tmp53 = __out;
-      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:697:46: error: ‘__s11_n59__out_n60IN___tmp53’ was not declared in this scope; did you mean ‘__s11_n62__out_n63IN___tmp55’?
-  697 |                         const double __in1 = __s11_n59__out_n60IN___tmp53;
-      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      |                                              __s11_n62__out_n63IN___tmp55
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:1137:28: warning: unused variable ‘__s12_n18__out_n19IN___tmp82’ [-Wunused-variable]
- 1137 |                     double __s12_n18__out_n19IN___tmp82;
-      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:1148:25: error: ‘__s12_n18__out_n19IN___tmp82’ was not declared in this scope
- 1148 |                         __s12_n18__out_n19IN___tmp82 = __out;
-      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:1152:46: error: ‘__s12_n18__out_n19IN___tmp82’ was not declared in this scope; did you mean ‘__s12_n21__out_n22IN___tmp84’?
- 1152 |                         const double __in1 = __s12_n18__out_n19IN___tmp82;
-      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      |                                              __s12_n21__out_n22IN___tmp84
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:1750:32: warning: unused variable ‘__s8_n80__out_n81IN___tmp44’ [-Wunused-variable]
- 1750 |                         double __s8_n80__out_n81IN___tmp44;
-      |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:1761:29: error: ‘__s8_n80__out_n81IN___tmp44’ was not declared in this scope
- 1761 |                             __s8_n80__out_n81IN___tmp44 = __out;
-      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:1843:50: error: ‘__s8_n80__out_n81IN___tmp44’ was not declared in this scope; did you mean ‘__s8_n50__out_n51IN___tmp27’?
- 1843 |                             const double __in2 = __s8_n80__out_n81IN___tmp44;
-      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-      |                                                  __s8_n50__out_n51IN___tmp27
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:2037:32: warning: unused variable ‘__s9_n36__out_n37IN___tmp66’ [-Wunused-variable]
- 2037 |                         double __s9_n36__out_n37IN___tmp66;
-      |                                ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:2048:29: error: ‘__s9_n36__out_n37IN___tmp66’ was not declared in this scope
- 2048 |                             __s9_n36__out_n37IN___tmp66 = __out;
-      |                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:2104:50: error: ‘__s9_n36__out_n37IN___tmp66’ was not declared in this scope; did you mean ‘__s9_n6__out_n7IN___tmp51’?
- 2104 |                             const double __in2 = __s9_n36__out_n37IN___tmp66;
-      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-      |                                                  __s9_n6__out_n7IN___tmp51
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:3043:28: warning: unused variable ‘__s2_n128__out_n129IN___tmp267’ [-Wunused-variable]
- 3043 |                     double __s2_n128__out_n129IN___tmp267;
-      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:3053:25: error: ‘__s2_n128__out_n129IN___tmp267’ was not declared in this scope
- 3053 |                         __s2_n128__out_n129IN___tmp267 = __out;
-      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:3057:46: error: ‘__s2_n128__out_n129IN___tmp267’ was not declared in this scope; did you mean ‘__s2_n129__out_n130IN___tmp268’?
- 3057 |                         const double __in2 = __s2_n128__out_n129IN___tmp267;
-      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      |                                              __s2_n129__out_n130IN___tmp268
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:3680:28: warning: unused variable ‘__s3_n25__out_n26IN___tmp300’ [-Wunused-variable]
- 3680 |                     double __s3_n25__out_n26IN___tmp300;
-      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:3690:25: error: ‘__s3_n25__out_n26IN___tmp300’ was not declared in this scope
- 3690 |                         __s3_n25__out_n26IN___tmp300 = __out;
-      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:3694:46: error: ‘__s3_n25__out_n26IN___tmp300’ was not declared in this scope; did you mean ‘__s3_n26__out_n27IN___tmp301’?
- 3694 |                         const double __in2 = __s3_n25__out_n26IN___tmp300;
-      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      |                                              __s3_n26__out_n27IN___tmp301
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4299:28: warning: unused variable ‘__s4_n39__out_n40IN___tmp364’ [-Wunused-variable]
- 4299 |                     double __s4_n39__out_n40IN___tmp364;
-      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4309:25: error: ‘__s4_n39__out_n40IN___tmp364’ was not declared in this scope
- 4309 |                         __s4_n39__out_n40IN___tmp364 = __out;
-      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4313:46: error: ‘__s4_n39__out_n40IN___tmp364’ was not declared in this scope; did you mean ‘__s4_n40__out_n41IN___tmp365’?
- 4313 |                         const double __in2 = __s4_n39__out_n40IN___tmp364;
-      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      |                                              __s4_n40__out_n41IN___tmp365
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp: In function ‘auto_opt_omp_tasking_t* __dace_init_auto_opt_omp_tasking(long long int, long long int)’:
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4766:63: warning: ‘new’ of type ‘double’ with extended alignment 64 [-Waligned-new=]
- 4766 |     __state->__0___tmp285 = new double DACE_ALIGN(64)[(ny - 2)];
-      |                                                               ^
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4766:63: note: uses ‘void* operator new [](std::size_t)’, which does not have an alignment parameter
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4766:63: note: use ‘-faligned-new’ to enable C++17 over-aligned new support
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4767:63: warning: ‘new’ of type ‘double’ with extended alignment 64 [-Waligned-new=]
- 4767 |     __state->__0___tmp341 = new double DACE_ALIGN(64)[(ny - 2)];
-      |                                                               ^
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4767:63: note: uses ‘void* operator new [](std::size_t)’, which does not have an alignment parameter
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4767:63: note: use ‘-faligned-new’ to enable C++17 over-aligned new support
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4768:58: warning: ‘new’ of type ‘double’ with extended alignment 64 [-Waligned-new=]
- 4768 |     __state->__0_un = new double DACE_ALIGN(64)[(nx * ny)];
-      |                                                          ^
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4768:58: note: uses ‘void* operator new [](std::size_t)’, which does not have an alignment parameter
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4768:58: note: use ‘-faligned-new’ to enable C++17 over-aligned new support
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4769:58: warning: ‘new’ of type ‘double’ with extended alignment 64 [-Waligned-new=]
- 4769 |     __state->__0_vn = new double DACE_ALIGN(64)[(nx * ny)];
-      |                                                          ^
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4769:58: note: uses ‘void* operator new [](std::size_t)’, which does not have an alignment parameter
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4769:58: note: use ‘-faligned-new’ to enable C++17 over-aligned new support
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4770:57: warning: ‘new’ of type ‘double’ with extended alignment 64 [-Waligned-new=]
- 4770 |     __state->__0_b = new double DACE_ALIGN(64)[(nx * ny)];
-      |                                                         ^
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4770:57: note: uses ‘void* operator new [](std::size_t)’, which does not have an alignment parameter
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4770:57: note: use ‘-faligned-new’ to enable C++17 over-aligned new support
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4771:58: warning: ‘new’ of type ‘double’ with extended alignment 64 [-Waligned-new=]
- 4771 |     __state->__0_pn = new double DACE_ALIGN(64)[(nx * ny)];
-      |                                                          ^
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4771:58: note: uses ‘void* operator new [](std::size_t)’, which does not have an alignment parameter
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4771:58: note: use ‘-faligned-new’ to enable C++17 over-aligned new support
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4772:63: warning: ‘new’ of type ‘double’ with extended alignment 64 [-Waligned-new=]
- 4772 |     __state->__0___tmp157 = new double DACE_ALIGN(64)[(ny - 2)];
-      |                                                               ^
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4772:63: note: uses ‘void* operator new [](std::size_t)’, which does not have an alignment parameter
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4772:63: note: use ‘-faligned-new’ to enable C++17 over-aligned new support
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4773:75: warning: ‘new’ of type ‘double’ with extended alignment 64 [-Waligned-new=]
- 4773 |     __state->__0___tmp14 = new double DACE_ALIGN(64)[((nx - 2) * (ny - 2))];
-      |                                                                           ^
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4773:75: note: uses ‘void* operator new [](std::size_t)’, which does not have an alignment parameter
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4773:75: note: use ‘-faligned-new’ to enable C++17 over-aligned new support
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4774:62: warning: ‘new’ of type ‘double’ with extended alignment 64 [-Waligned-new=]
- 4774 |     __state->__0___tmp72 = new double DACE_ALIGN(64)[(ny - 2)];
-      |                                                              ^
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4774:62: note: uses ‘void* operator new [](std::size_t)’, which does not have an alignment parameter
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:4774:62: note: use ‘-faligned-new’ to enable C++17 over-aligned new support
-gmake[2]: *** [CMakeFiles/auto_opt_omp_tasking.dir/build.make:76: CMakeFiles/auto_opt_omp_tasking.dir/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/auto_opt_omp_tasking.dir/all] Error 2
-gmake: *** [Makefile:91: all] Error 2
-
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 19886ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 378ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 1357ms
-***** Testing DaCe CPU with cholesky on the S dataset *****
-NumPy - default - validation: 10ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 513ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 193ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 1690ms
+DaCe CPU - auto_opt_omp_parallel - median: 234ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 6560ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 2041ms
+DaCe CPU - auto_opt_omp_tasking - median: 6638ms
+***** Testing DaCe CPU with cholesky on the S dataset *****
+NumPy - default - validation: 15ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 68ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 52ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 1121ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 549ms
 ***** Testing DaCe CPU with cholesky2 on the S dataset *****
-NumPy - default - validation: 37ms
+NumPy - default - validation: 16ms
 Failed to compile DaCe cpu auto_opt_omp_parallel implementation.
 Configuration failure:
 -- The C compiler identification is GNU 11.3.0
@@ -265,15 +136,15 @@ See also "/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_
 
 Traceback
 ***** Testing DaCe CPU with compute on the S dataset *****
-NumPy - default - validation: 28ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 12ms
+NumPy - default - validation: 26ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 13ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 5ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 33ms
+DaCe CPU - auto_opt_omp_parallel - median: 4ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 23ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 7ms
+DaCe CPU - auto_opt_omp_tasking - median: 6ms
 ***** Testing DaCe CPU with contour_integral on the S dataset *****
-NumPy - default - validation: 342ms
+NumPy - default - validation: 356ms
 Parsing complete.
 Failed to compile DaCe cpu auto_opt_omp_parallel implementation.
 Configuration failure:
@@ -336,433 +207,336 @@ See also "/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_
 
 Traceback
 ***** Testing DaCe CPU with conv2d_bias on the S dataset *****
-NumPy - default - validation: 11ms
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-'Variable __tmp3_0 has not been defined'
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 29ms
+NumPy - default - validation: 10ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 20ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 10ms
-***** Testing DaCe CPU with correlation on the S dataset *****
-NumPy - default - validation: 828ms
-Parsing complete.
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-'Variable stddev has not been defined'
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 455ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 419ms
-***** Testing DaCe CPU with covariance on the S dataset *****
-NumPy - default - validation: 59ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 809ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 354ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 1420ms
+DaCe CPU - auto_opt_omp_parallel - median: 6ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 11ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 1348ms
+DaCe CPU - auto_opt_omp_tasking - median: 6ms
+***** Testing DaCe CPU with correlation on the S dataset *****
+NumPy - default - validation: 36ms
+Parsing complete.
+DaCe CPU - auto_opt_omp_parallel - first/validation: 67ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 65ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 685ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 688ms
+***** Testing DaCe CPU with covariance on the S dataset *****
+NumPy - default - validation: 51ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 101ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 61ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 905ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 922ms
 ***** Testing DaCe CPU with crc16 on the S dataset *****
 NumPy - default - validation: 6ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 1ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 0ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
 DaCe CPU - auto_opt_omp_parallel - median: 0ms
 DaCe CPU - auto_opt_omp_tasking - first/validation: 0ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking - median: 0ms
 ***** Testing DaCe CPU with deriche on the S dataset *****
-NumPy - default - validation: 11ms
+NumPy - default - validation: 10ms
 Parsing complete.
-Applied 4 MoveLoopIntoMap.Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-'Variable __tmp98 has not been defined'
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 19ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 8ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 4ms
+DaCe CPU - auto_opt_omp_parallel - median: 0ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 12ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 9ms
 ***** Testing DaCe CPU with doitgen on the S dataset *****
-NumPy - default - validation: 1385ms
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-'Variable A_0_0 has not been defined'
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 39ms
+NumPy - default - validation: 92ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 31ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 29ms
+DaCe CPU - auto_opt_omp_parallel - median: 24ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 24ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 20ms
 ***** Testing DaCe CPU with durbin on the S dataset *****
-NumPy - default - validation: 8ms
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-Compiler failure:
-Consolidate compiler generated dependencies of target auto_opt_omp_tasking
-[ 25%] Building CXX object CMakeFiles/auto_opt_omp_tasking.dir/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp.o
-In file included from /mnt/c/Users/51140/Documents/ETH/DHPC/dace/dace/codegen/../runtime/include/dace/dace.h:14,
-                 from /mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:2:
-/mnt/c/Users/51140/Documents/ETH/DHPC/dace/dace/codegen/../runtime/include/dace/types.h: In constructor ‘dace::half::half(float)’:
-/mnt/c/Users/51140/Documents/ETH/DHPC/dace/dace/codegen/../runtime/include/dace/types.h:92:28: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
-   92 |             uint32_t x = *((uint32_t*)&f);
-      |                           ~^~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp: In function ‘void __program_auto_opt_omp_tasking_internal(auto_opt_omp_tasking_t*, double*, double*, long long int)’:
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:133:101: warning: ‘new’ of type ‘double’ with extended alignment 64 [-Waligned-new=]
-  133 |             npbench_benchmarks_polybench_durbin_durbin_dace_flip_ret_0 = new double DACE_ALIGN(64)[k];
-      |                                                                                                     ^
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:133:101: note: uses ‘void* operator new [](std::size_t)’, which does not have an alignment parameter
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:133:101: note: use ‘-faligned-new’ to enable C++17 over-aligned new support
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:137:103: warning: ‘new’ of type ‘double’ with extended alignment 64 [-Waligned-new=]
-  137 |             npbench_benchmarks_polybench_durbin_durbin_dace_flip_ret_0_0 = new double DACE_ALIGN(64)[k];
-      |                                                                                                       ^
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:137:103: note: uses ‘void* operator new [](std::size_t)’, which does not have an alignment parameter
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:137:103: note: use ‘-faligned-new’ to enable C++17 over-aligned new support
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:279:28: warning: unused variable ‘__s1_n25__out_n26IN___tmp13’ [-Wunused-variable]
-  279 |                     double __s1_n25__out_n26IN___tmp13;
-      |                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:290:25: error: ‘__s1_n25__out_n26IN___tmp13’ was not declared in this scope
-  290 |                         __s1_n25__out_n26IN___tmp13 = __out;
-      |                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:293:46: error: ‘__s1_n25__out_n26IN___tmp13’ was not declared in this scope
-  293 |                         const double __in2 = __s1_n25__out_n26IN___tmp13;
-      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~~~~
-gmake[2]: *** [CMakeFiles/auto_opt_omp_tasking.dir/build.make:76: CMakeFiles/auto_opt_omp_tasking.dir/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/auto_opt_omp_tasking.dir/all] Error 2
-gmake: *** [Makefile:91: all] Error 2
-
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 2119ms
+NumPy - default - validation: 7ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 43ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 140ms
+DaCe CPU - auto_opt_omp_parallel - median: 41ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 4793ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 4585ms
 ***** Testing DaCe CPU with fdtd_2d on the S dataset *****
 NumPy - default - validation: 4ms
 Parsing complete.
-DaCe CPU - auto_opt_omp_parallel - first/validation: 47ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 5ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 33ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 95ms
+DaCe CPU - auto_opt_omp_parallel - median: 1ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 42ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 93ms
+DaCe CPU - auto_opt_omp_tasking - median: 33ms
 ***** Testing DaCe CPU with floyd_warshall on the S dataset *****
 NumPy - default - validation: 6ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 109ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 76ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 81ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 246ms
+DaCe CPU - auto_opt_omp_parallel - median: 72ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 179ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 168ms
+DaCe CPU - auto_opt_omp_tasking - median: 122ms
 ***** Testing DaCe CPU with gemm on the S dataset *****
-NumPy - default - validation: 56ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 918ms
+NumPy - default - validation: 35ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 648ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 856ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 757ms
+DaCe CPU - auto_opt_omp_parallel - median: 672ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 650ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 776ms
+DaCe CPU - auto_opt_omp_tasking - median: 632ms
 ***** Testing DaCe CPU with gemver on the S dataset *****
-NumPy - default - validation: 17ms
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-'Variable __tmp8 has not been defined'
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 28ms
+NumPy - default - validation: 15ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 9ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 7ms
-***** Testing DaCe CPU with gesummv on the S dataset *****
-NumPy - default - validation: 28ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 25ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 15ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 79ms
+DaCe CPU - auto_opt_omp_parallel - median: 5ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 36ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 64ms
+DaCe CPU - auto_opt_omp_tasking - median: 26ms
+***** Testing DaCe CPU with gesummv on the S dataset *****
+NumPy - default - validation: 18ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 21ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 10ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 65ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 40ms
 ***** Testing DaCe CPU with go_fast on the S dataset *****
 NumPy - default - validation: 7ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 11ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 10ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 4ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 22ms
+DaCe CPU - auto_opt_omp_parallel - median: 3ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 18ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking - median: 6ms
 ***** Testing DaCe CPU with gramschmidt on the S dataset *****
-NumPy - default - validation: 9ms
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-'Variable __tmp6 has not been defined'
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 117ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 10ms
-***** Testing DaCe CPU with hdiff on the S dataset *****
 NumPy - default - validation: 7ms
-Parsing complete.
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-'Variable res2 has not been defined'
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 12ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 9ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 2ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 27ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 26ms
+***** Testing DaCe CPU with hdiff on the S dataset *****
+NumPy - default - validation: 6ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 8ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
 DaCe CPU - auto_opt_omp_parallel - median: 1ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 2ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 2ms
 ***** Testing DaCe CPU with heat_3d on the S dataset *****
-NumPy - default - validation: 6ms
-Parsing complete.
+NumPy - default - validation: 8ms
 DaCe CPU - auto_opt_omp_parallel - first/validation: 7ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
 DaCe CPU - auto_opt_omp_parallel - median: 1ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 5ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 7ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 5ms
+DaCe CPU - auto_opt_omp_tasking - median: 3ms
 ***** Testing DaCe CPU with jacobi_1d on the S dataset *****
-NumPy - default - validation: 9ms
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-Compiler failure:
-Consolidate compiler generated dependencies of target auto_opt_omp_tasking
-[ 25%] Building CXX object CMakeFiles/auto_opt_omp_tasking.dir/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp.o
-In file included from /mnt/c/Users/51140/Documents/ETH/DHPC/dace/dace/codegen/../runtime/include/dace/dace.h:14,
-                 from /mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:2:
-/mnt/c/Users/51140/Documents/ETH/DHPC/dace/dace/codegen/../runtime/include/dace/types.h: In constructor ‘dace::half::half(float)’:
-/mnt/c/Users/51140/Documents/ETH/DHPC/dace/dace/codegen/../runtime/include/dace/types.h:92:28: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
-   92 |             uint32_t x = *((uint32_t*)&f);
-      |                           ~^~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp: In function ‘void __program_auto_opt_omp_tasking_internal(auto_opt_omp_tasking_t*, double*, double*, long long int, long long int)’:
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:25:28: warning: unused variable ‘__s1_n1__out_n2IN___tmp0’ [-Wunused-variable]
-   25 |                     double __s1_n1__out_n2IN___tmp0;
-      |                            ^~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:36:25: error: ‘__s1_n1__out_n2IN___tmp0’ was not declared in this scope
-   36 |                         __s1_n1__out_n2IN___tmp0 = __out;
-      |                         ^~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:40:46: error: ‘__s1_n1__out_n2IN___tmp0’ was not declared in this scope; did you mean ‘__s1_n3__out_n4IN___tmp1’?
-   40 |                         const double __in1 = __s1_n1__out_n2IN___tmp0;
-      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~
-      |                                              __s1_n3__out_n4IN___tmp1
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:70:28: warning: unused variable ‘__s1_n8__out_n9IN___tmp3’ [-Wunused-variable]
-   70 |                     double __s1_n8__out_n9IN___tmp3;
-      |                            ^~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:81:25: error: ‘__s1_n8__out_n9IN___tmp3’ was not declared in this scope
-   81 |                         __s1_n8__out_n9IN___tmp3 = __out;
-      |                         ^~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:85:46: error: ‘__s1_n8__out_n9IN___tmp3’ was not declared in this scope; did you mean ‘__s1_n9__out_n10IN___tmp4’?
-   85 |                         const double __in1 = __s1_n8__out_n9IN___tmp3;
-      |                                              ^~~~~~~~~~~~~~~~~~~~~~~~
-      |                                              __s1_n9__out_n10IN___tmp4
-gmake[2]: *** [CMakeFiles/auto_opt_omp_tasking.dir/build.make:76: CMakeFiles/auto_opt_omp_tasking.dir/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/auto_opt_omp_tasking.dir/all] Error 2
-gmake: *** [Makefile:91: all] Error 2
-
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 36ms
+NumPy - default - validation: 8ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 12ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 17ms
+DaCe CPU - auto_opt_omp_parallel - median: 8ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 10729ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 11055ms
 ***** Testing DaCe CPU with jacobi_2d on the S dataset *****
 NumPy - default - validation: 6ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 20ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 48ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 1ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 63ms
+DaCe CPU - auto_opt_omp_parallel - median: 17ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 66ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 75ms
+DaCe CPU - auto_opt_omp_tasking - median: 49ms
 ***** Testing DaCe CPU with k2mm on the S dataset *****
-NumPy - default - validation: 51ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 628ms
+NumPy - default - validation: 44ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 687ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 649ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 599ms
+DaCe CPU - auto_opt_omp_parallel - median: 585ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 524ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 610ms
+DaCe CPU - auto_opt_omp_tasking - median: 515ms
 ***** Testing DaCe CPU with k3mm on the S dataset *****
-NumPy - default - validation: 198ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 11155ms
+NumPy - default - validation: 231ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 9239ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 10366ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 10382ms
+DaCe CPU - auto_opt_omp_parallel - median: 9575ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 9215ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 10074ms
+DaCe CPU - auto_opt_omp_tasking - median: 8880ms
 ***** Testing DaCe CPU with lenet on the S dataset *****
 NumPy - default - validation: 9ms
 Parsing complete.
-Applied 8 LoopToMap, 4 RefineNestedAccess.Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-'Variable __tmp3_0 has not been defined'
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 22ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 12ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 5ms
-***** Testing DaCe CPU with lu on the S dataset *****
-NumPy - default - validation: 7ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 248ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 98ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 757ms
+DaCe CPU - auto_opt_omp_parallel - median: 11ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 4ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 1018ms
+DaCe CPU - auto_opt_omp_tasking - median: 2ms
+***** Testing DaCe CPU with lu on the S dataset *****
+NumPy - default - validation: 6ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 54ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 34ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 307ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 319ms
 ***** Testing DaCe CPU with ludcmp on the S dataset *****
 NumPy - default - validation: 7ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 380ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 46ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 142ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 845ms
+DaCe CPU - auto_opt_omp_parallel - median: 35ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 255ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 775ms
+DaCe CPU - auto_opt_omp_tasking - median: 425ms
 ***** Testing DaCe CPU with mandelbrot1 on the S dataset *****
-NumPy - default - validation: 15ms
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-'Variable npbench_benchmarks_mandelbrot1_mandelbrot1_dace_linspace_1___tmp3 has not been defined'
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 14ms
+NumPy - default - validation: 13ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 9ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 1ms
+DaCe CPU - auto_opt_omp_parallel - median: 0ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 5ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 3ms
 ***** Testing DaCe CPU with mandelbrot2 on the S dataset *****
-NumPy - default - validation: 11ms
+NumPy - default - validation: 14ms
 Parsing complete.
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-'Variable npbench_benchmarks_mandelbrot2_mandelbrot2_dace_linspace_1___tmp3 has not been defined'
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 100ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 23ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 91ms
+DaCe CPU - auto_opt_omp_parallel - median: 19ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 6955ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 6834ms
 ***** Testing DaCe CPU with mlp on the S dataset *****
-NumPy - default - validation: 480ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 741ms
+NumPy - default - validation: 328ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 455ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 755ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 852ms
+DaCe CPU - auto_opt_omp_parallel - median: 487ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 645ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 745ms
+DaCe CPU - auto_opt_omp_tasking - median: 611ms
 ***** Testing DaCe CPU with mvt on the S dataset *****
-NumPy - default - validation: 30ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 78ms
+NumPy - default - validation: 24ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 47ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 67ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 279ms
+DaCe CPU - auto_opt_omp_parallel - median: 41ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 262ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 254ms
+DaCe CPU - auto_opt_omp_tasking - median: 235ms
 ***** Testing DaCe CPU with nbody on the S dataset *****
-NumPy - default - validation: 5ms
+NumPy - default - validation: 6ms
 Parsing complete.
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-'Variable __tmp101 has not been defined'
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 102ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 334ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 230ms
+DaCe CPU - auto_opt_omp_parallel - median: 75ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 282ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 112ms
 ***** Testing DaCe CPU with nussinov on the S dataset *****
 NumPy - default - validation: 9ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 8ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 10ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 0ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 2ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 0ms
+***** Testing DaCe CPU with resnet on the S dataset *****
+NumPy - default - validation: 9ms
+Parsing complete.
+DaCe CPU - auto_opt_omp_parallel - first/validation: 26ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 15ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 26ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 17ms
+***** Testing DaCe CPU with scattering_self_energies on the S dataset *****
+NumPy - default - validation: 9ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 10ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 7ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 4ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 6ms
+***** Testing DaCe CPU with seidel_2d on the S dataset *****
+NumPy - default - validation: 11ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 14ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 4ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 132ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 85ms
+***** Testing DaCe CPU with softmax on the S dataset *****
+NumPy - default - validation: 22ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 22ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 7ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 13ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 7ms
+***** Testing DaCe CPU with spmv on the S dataset *****
+NumPy - default - validation: 12ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 12ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 0ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 7ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 7ms
+***** Testing DaCe CPU with stockham_fft on the S dataset *****
+NumPy - default - validation: 13ms
+Parsing complete.
+DaCe autoopt failed
+***** Testing DaCe CPU with symm on the S dataset *****
+NumPy - default - validation: 8ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 14ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 12ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 7ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 19ms
+***** Testing DaCe CPU with syr2k on the S dataset *****
+NumPy - default - validation: 10ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 5ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
 DaCe CPU - auto_opt_omp_parallel - median: 0ms
 DaCe CPU - auto_opt_omp_tasking - first/validation: 1ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking - median: 0ms
-***** Testing DaCe CPU with resnet on the S dataset *****
-NumPy - default - validation: 11ms
-Parsing complete.
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-'Variable __tmp3_0 has not been defined'
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 23ms
+***** Testing DaCe CPU with syrk on the S dataset *****
+NumPy - default - validation: 8ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 1ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 12ms
-***** Testing DaCe CPU with scattering_self_energies on the S dataset *****
-NumPy - default - validation: 10ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 22ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 13ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 15ms
+DaCe CPU - auto_opt_omp_parallel - median: 0ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 1ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 13ms
-***** Testing DaCe CPU with seidel_2d on the S dataset *****
-NumPy - default - validation: 11ms
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-Compiler failure:
-Consolidate compiler generated dependencies of target auto_opt_omp_tasking
-[ 25%] Building CXX object CMakeFiles/auto_opt_omp_tasking.dir/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp.o
-In file included from /mnt/c/Users/51140/Documents/ETH/DHPC/dace/dace/codegen/../runtime/include/dace/dace.h:14,
-                 from /mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:2:
-/mnt/c/Users/51140/Documents/ETH/DHPC/dace/dace/codegen/../runtime/include/dace/types.h: In constructor ‘dace::half::half(float)’:
-/mnt/c/Users/51140/Documents/ETH/DHPC/dace/dace/codegen/../runtime/include/dace/types.h:92:28: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
-   92 |             uint32_t x = *((uint32_t*)&f);
-      |                           ~^~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp: In function ‘void __program_auto_opt_omp_tasking_internal(auto_opt_omp_tasking_t*, double*, long long int, long long int)’:
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:34:32: warning: unused variable ‘__s0_n1__out_n2IN___tmp1’ [-Wunused-variable]
-   34 |                         double __s0_n1__out_n2IN___tmp1;
-      |                                ^~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:45:29: error: ‘__s0_n1__out_n2IN___tmp1’ was not declared in this scope
-   45 |                             __s0_n1__out_n2IN___tmp1 = __out;
-      |                             ^~~~~~~~~~~~~~~~~~~~~~~~
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:49:50: error: ‘__s0_n1__out_n2IN___tmp1’ was not declared in this scope; did you mean ‘__s0_n3__out_n4IN___tmp2’?
-   49 |                             const double __in1 = __s0_n1__out_n2IN___tmp1;
-      |                                                  ^~~~~~~~~~~~~~~~~~~~~~~~
-      |                                                  __s0_n3__out_n4IN___tmp2
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp: In function ‘auto_opt_omp_tasking_t* __dace_init_auto_opt_omp_tasking(long long int)’:
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:190:60: warning: ‘new’ of type ‘double’ with extended alignment 64 [-Waligned-new=]
-  190 |     __state->__0___tmp6 = new double DACE_ALIGN(64)[(N - 2)];
-      |                                                            ^
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:190:60: note: uses ‘void* operator new [](std::size_t)’, which does not have an alignment parameter
-/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp:190:60: note: use ‘-faligned-new’ to enable C++17 over-aligned new support
-gmake[2]: *** [CMakeFiles/auto_opt_omp_tasking.dir/build.make:76: CMakeFiles/auto_opt_omp_tasking.dir/mnt/c/Users/51140/Documents/ETH/DHPC/npbench/.dacecache/auto_opt_omp_tasking/src/cpu/auto_opt_omp_tasking.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/auto_opt_omp_tasking.dir/all] Error 2
-gmake: *** [Makefile:91: all] Error 2
-
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 115ms
+DaCe CPU - auto_opt_omp_tasking - median: 0ms
+***** Testing DaCe CPU with trisolv on the S dataset *****
+NumPy - default - validation: 5ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 364ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 11ms
-***** Testing DaCe CPU with softmax on the S dataset *****
-NumPy - default - validation: 21ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 29ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 10ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 16ms
+DaCe CPU - auto_opt_omp_parallel - median: 179ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 4688ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 10ms
-***** Testing DaCe CPU with spmv on the S dataset *****
-NumPy - default - validation: 13ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 13ms
+DaCe CPU - auto_opt_omp_tasking - median: 5158ms
+***** Testing DaCe CPU with trmm on the S dataset *****
+NumPy - default - validation: 8ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 10ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
 DaCe CPU - auto_opt_omp_parallel - median: 1ms
 DaCe CPU - auto_opt_omp_tasking - first/validation: 12ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 10ms
-***** Testing DaCe CPU with stockham_fft on the S dataset *****
-NumPy - default - validation: 39ms
-Parsing complete.
-DaCe autoopt failed
-***** Testing DaCe CPU with symm on the S dataset *****
-NumPy - default - validation: 8ms
-Parsing complete.
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-'Variable __tmp1 has not been defined'
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 14ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 1ms
-***** Testing DaCe CPU with syr2k on the S dataset *****
-NumPy - default - validation: 11ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 11ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 1ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 1ms
-DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 1ms
-***** Testing DaCe CPU with syrk on the S dataset *****
-NumPy - default - validation: 8ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 6ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 0ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 2ms
-DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 1ms
-***** Testing DaCe CPU with trisolv on the S dataset *****
-NumPy - default - validation: 5ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 527ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 365ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 8385ms
-DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 7086ms
-***** Testing DaCe CPU with trmm on the S dataset *****
-NumPy - default - validation: 8ms
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-'Variable A_0 has not been defined'
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 10ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 1ms
+DaCe CPU - auto_opt_omp_tasking - median: 12ms
 ***** Testing DaCe CPU with vadv on the S dataset *****
-NumPy - default - validation: 6ms
+NumPy - default - validation: 9ms
 Parsing complete.
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-'Variable __tmp69 has not been defined'
-Traceback
-DaCe CPU - auto_opt_omp_parallel - first/validation: 19ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 23ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 9ms
+DaCe CPU - auto_opt_omp_parallel - median: 6ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 42ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 58ms
 Failed: 1 out of 53
 stockham_fft

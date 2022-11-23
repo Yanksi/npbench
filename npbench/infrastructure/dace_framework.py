@@ -305,11 +305,12 @@ class DaceFramework(Framework):
                     gpu_time1 = [0]
                 fe_time += gpu_time1[0]
             try:
-                dc_exec, compile_time = util.benchmark("__npb_result = sdfg.compile()",
-                                                       out_text="DaCe compilation time",
-                                                       context=locals(),
-                                                       output='__npb_result',
-                                                       verbose=False)
+                # dc_exec, compile_time = util.benchmark("__npb_result = sdfg.compile()",
+                #                                        out_text="DaCe compilation time",
+                #                                        context=locals(),
+                #                                        output='__npb_result',
+                #                                        verbose=False)
+                dc_exec = sdfg.compile()
                 implementations.append((dc_exec, sdfg._name))
             except Exception as e:
                 print("Failed to compile DaCe {a} {s} implementation.".format(a=self.info["arch"], s=sdfg._name))
@@ -318,7 +319,7 @@ class DaceFramework(Framework):
                 print("Traceback")
                 continue
 
-            fe_time += compile_time[0]
+            # fe_time += compile_time[0]
 
         return implementations
 
