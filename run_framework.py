@@ -59,10 +59,12 @@ if __name__ == "__main__":
                         default=False)
     args = vars(parser.parse_args())
 
+
+    blacklisted = {"atax", "bicg", "cholesky", "crc16", "k3mm", "lu", "trisolv"}
     parent_folder = pathlib.Path(__file__).parent.absolute()
     bench_dir = parent_folder.joinpath("bench_info")
     pathlist = pathlib.Path(bench_dir).rglob('*.json')
-    benchnames = [os.path.basename(path)[:-5] for path in pathlist]
+    benchnames = [os.path.basename(path)[:-5] for path in pathlist if os.path.basename(path)[:-5] not in blacklisted]
     benchnames.sort()
     failed = []
     for benchname in benchnames:
