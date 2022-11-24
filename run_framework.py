@@ -59,8 +59,9 @@ if __name__ == "__main__":
                         default=False)
     args = vars(parser.parse_args())
 
-
+    '''Benchmarks that neither use #omp for nor #omp task'''
     blacklisted = {"atax", "bicg", "cholesky", "crc16", "k3mm", "lu", "trisolv"}
+    
     parent_folder = pathlib.Path(__file__).parent.absolute()
     bench_dir = parent_folder.joinpath("bench_info")
     pathlist = pathlib.Path(bench_dir).rglob('*.json')
