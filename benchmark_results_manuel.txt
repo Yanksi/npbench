@@ -1,7 +1,3 @@
-Machine:
-Intel(R) Core(TM) i7-7600U CPU 
-GCC 10
-
 ***** Testing DaCe CPU with adi on the M dataset *****
 NumPy - default - validation: 162ms
 DaCe CPU - auto_opt_omp_parallel - first/validation: 768ms
