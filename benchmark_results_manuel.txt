@@ -1,0 +1,430 @@
+Machine:
+Intel(R) Core(TM) i7-7600U CPU 
+GCC 10
+
+***** Testing DaCe CPU with adi on the M dataset *****
+NumPy - default - validation: 162ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 768ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 5ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 60ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 34ms
+***** Testing DaCe CPU with arc_distance on the M dataset *****
+NumPy - default - validation: 100ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 85ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 89ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 907ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 844ms
+***** Testing DaCe CPU with atax on the M dataset *****
+NumPy - default - validation: 98ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 133ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 98ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 96ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 91ms
+***** Testing DaCe CPU with azimint_hist on the M dataset *****
+NumPy - default - validation: 134ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 278ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 70ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 6824ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 6606ms
+***** Testing DaCe CPU with azimint_naive on the M dataset *****
+NumPy - default - validation: 7251ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 3949ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 3673ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 4281ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 3816ms
+***** Testing DaCe CPU with bicg on the M dataset *****
+NumPy - default - validation: 92ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 111ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 83ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 83ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 83ms
+***** Testing DaCe CPU with cavity_flow on the M dataset *****
+NumPy - default - validation: 136ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 237ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 18ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 450ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 184ms
+***** Testing DaCe CPU with channel_flow on the M dataset *****
+NumPy - default - validation: 2373ms
+Parsing Python program: 100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 32263.88it/s]
+Parsing complete.
+DaCe CPU - auto_opt_omp_parallel - first/validation: 2239ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 410ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 5060ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 4911ms
+***** Testing DaCe CPU with cholesky on the M dataset *****
+NumPy - default - validation: 202ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 11ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 3ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 8ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 3ms
+***** Testing DaCe CPU with cholesky2 on the M dataset *****
+NumPy - default - validation: 190ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 332ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 158ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 219ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 181ms
+***** Testing DaCe CPU with compute on the M dataset *****
+NumPy - default - validation: 145ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 118ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 36ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 69ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 39ms
+***** Testing DaCe CPU with contour_integral on the M dataset *****
+NumPy - default - validation: 428ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 2092ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 2399ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 2223ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 3038ms
+***** Testing DaCe CPU with conv2d_bias on the M dataset *****
+NumPy - default - validation: 159ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 406ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 184ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 251ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 174ms
+***** Testing DaCe CPU with correlation on the M dataset *****
+NumPy - default - validation: 798ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 706ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 750ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 718ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 763ms
+***** Testing DaCe CPU with covariance on the M dataset *****
+NumPy - default - validation: 867ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 5432ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 5480ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 12394ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 11704ms
+***** Testing DaCe CPU with crc16 on the M dataset *****
+NumPy - default - validation: 148ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 1ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 1ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 2ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 1ms
+***** Testing DaCe CPU with deriche on the M dataset *****
+NumPy - default - validation: 121ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 49ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 37ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 173ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 24ms
+***** Testing DaCe CPU with doitgen on the M dataset *****
+NumPy - default - validation: 137ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 169ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 82ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 94ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 71ms
+***** Testing DaCe CPU with durbin on the M dataset *****
+NumPy - default - validation: 125ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 624ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 1920ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 123360ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 119650ms
+***** Testing DaCe CPU with fdtd_2d on the M dataset *****
+NumPy - default - validation: 158ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 669ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 18ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 277ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 104ms
+***** Testing DaCe CPU with floyd_warshall on the M dataset *****
+NumPy - default - validation: 112ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 536ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 39ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 295ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 187ms
+***** Testing DaCe CPU with gemm on the M dataset *****
+NumPy - default - validation: 659ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 703ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 580ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 647ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 597ms
+***** Testing DaCe CPU with gemver on the M dataset *****
+NumPy - default - validation: 82ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 100ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 87ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 166ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 117ms
+***** Testing DaCe CPU with gesummv on the M dataset *****
+NumPy - default - validation: 74ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 130ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 86ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 194ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 113ms
+***** Testing DaCe CPU with go_fast on the M dataset *****
+NumPy - default - validation: 54ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 82ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 38ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 128ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 38ms
+***** Testing DaCe CPU with gramschmidt on the M dataset *****
+NumPy - default - validation: 167ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 19ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 6ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 225ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 54ms
+***** Testing DaCe CPU with hdiff on the M dataset *****
+NumPy - default - validation: 94ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 75ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 70ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 116ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 33ms
+***** Testing DaCe CPU with heat_3d on the M dataset *****
+NumPy - default - validation: 119ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 16ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 19ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 312ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 9ms
+***** Testing DaCe CPU with jacobi_1d on the M dataset *****
+NumPy - default - validation: 149ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 47ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 43ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 66133ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 61808ms
+***** Testing DaCe CPU with jacobi_2d on the M dataset *****
+NumPy - default - validation: 113ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 32ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 24ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 465ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 59ms
+***** Testing DaCe CPU with k2mm on the M dataset *****
+NumPy - default - validation: 765ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 708ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 655ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 729ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 671ms
+***** Testing DaCe CPU with k3mm on the M dataset *****
+NumPy - default - validation: 1155ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 1063ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 1007ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 1097ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 1003ms
+***** Testing DaCe CPU with lenet on the M dataset *****
+NumPy - default - validation: 116ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 277ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 249ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 268ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 240ms
+***** Testing DaCe CPU with lu on the M dataset *****
+NumPy - default - validation: 172ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 13ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 8ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 7ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 7ms
+***** Testing DaCe CPU with ludcmp on the M dataset *****
+NumPy - default - validation: 198ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 23ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 12ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 7ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 36ms
+***** Testing DaCe CPU with mandelbrot1 on the M dataset *****
+NumPy - default - validation: 207ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 52ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 28ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 180ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 21ms
+***** Testing DaCe CPU with mandelbrot2 on the M dataset *****
+NumPy - default - validation: 201ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 193ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 254ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 20880ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 20827ms
+***** Testing DaCe CPU with mlp on the M dataset *****
+NumPy - default - validation: 364ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 308ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 266ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 258ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 300ms
+***** Testing DaCe CPU with mvt on the M dataset *****
+NumPy - default - validation: 96ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 148ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 105ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 122ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 124ms
+***** Testing DaCe CPU with nbody on the M dataset *****
+NumPy - default - validation: 93ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 25ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 12ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 320ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 166ms
+***** Testing DaCe CPU with nussinov on the M dataset *****
+NumPy - default - validation: 159ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 28ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 21ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 10ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 17ms
+***** Testing DaCe CPU with resnet on the M dataset *****
+NumPy - default - validation: 131ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 710ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 491ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 565ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 505ms
+***** Testing DaCe CPU with scattering_self_energies on the M dataset *****
+NumPy - default - validation: 126ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 48ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 8ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 136ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 8ms
+***** Testing DaCe CPU with seidel_2d on the M dataset *****
+NumPy - default - validation: 158ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 195ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 6ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 986ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 238ms
+***** Testing DaCe CPU with softmax on the M dataset *****
+NumPy - default - validation: 73ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 314ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 156ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 262ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 149ms
+***** Testing DaCe CPU with spmv on the M dataset *****
+NumPy - default - validation: 138ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 45ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 14ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 73ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 29ms
+***** Testing DaCe CPU with stockham_fft on the M dataset *****
+NumPy - default - validation: 247ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 454ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 592ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 5583ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 5716ms
+***** Testing DaCe CPU with symm on the M dataset *****
+NumPy - default - validation: 152ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 20ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 2ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 140ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 20ms
+***** Testing DaCe CPU with syr2k on the M dataset *****
+NumPy - default - validation: 168ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 4ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 1ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 6ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 7ms
+***** Testing DaCe CPU with syrk on the M dataset *****
+NumPy - default - validation: 149ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 29ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 18ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 1ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 1ms
+***** Testing DaCe CPU with trisolv on the M dataset *****
+NumPy - default - validation: 16ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 38ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 8ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 9ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 7ms
+***** Testing DaCe CPU with trmm on the M dataset *****
+NumPy - default - validation: 132ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 22ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 4ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 186ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 52ms
+***** Testing DaCe CPU with vadv on the M dataset *****
+NumPy - default - validation: 221ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 196ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 161ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 274ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 165ms
