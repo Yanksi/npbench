@@ -222,6 +222,31 @@ class DaceFramework(Framework):
         auto_opt_tasking_sdfg.activate_tasking()
         sdfg_list.append(auto_opt_tasking_sdfg)
         time_list.append(time_list[-1] + auto_time[0])
+
+        auto_opt_tasking_relchunk_sdfg = copy.deepcopy(auto_opt_tasking_sdfg)
+        auto_opt_tasking_relchunk_sdfg._name = 'auto_opt_omp_tasking_chunking_relative_32'
+        auto_opt_tasking_relchunk_sdfg.set_tasking_chunking_mode('relative_fraction', 32)
+        sdfg_list.append(auto_opt_tasking_relchunk_sdfg)
+        time_list.append(time_list[-1] + auto_time[0])
+        
+        auto_opt_tasking_abschunk16_sdfg = copy.deepcopy(auto_opt_tasking_sdfg)
+        auto_opt_tasking_abschunk16_sdfg._name = 'auto_opt_omp_tasking_chunking_absolute_16'
+        auto_opt_tasking_abschunk16_sdfg.set_tasking_chunking_mode('absolute_size', 16)
+        sdfg_list.append(auto_opt_tasking_abschunk16_sdfg)
+        time_list.append(time_list[-1] + auto_time[0])
+        
+        auto_opt_tasking_abschunk32_sdfg = copy.deepcopy(auto_opt_tasking_sdfg)
+        auto_opt_tasking_abschunk32_sdfg._name = 'auto_opt_omp_tasking_chunking_absolute_32'
+        auto_opt_tasking_abschunk32_sdfg.set_tasking_chunking_mode('absolute_size', 32)
+        sdfg_list.append(auto_opt_tasking_abschunk32_sdfg)
+        time_list.append(time_list[-1] + auto_time[0])
+
+        auto_opt_tasking_abschunk64_sdfg = copy.deepcopy(auto_opt_tasking_sdfg)
+        auto_opt_tasking_abschunk64_sdfg._name = 'auto_opt_omp_tasking_chunking_absolute_64'
+        auto_opt_tasking_abschunk64_sdfg.set_tasking_chunking_mode('absolute_size', 64)
+        sdfg_list.append(auto_opt_tasking_abschunk64_sdfg)
+        time_list.append(time_list[-1] + auto_time[0])
+
         # try: TODO: check why this is not working
         #     def autoopt(sdfg, device, symbols):  #, nofuse):
         #         # Auto-optimize SDFG
