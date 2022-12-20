@@ -1,46 +1,46 @@
 ***** Testing DaCe CPU with adi on the M dataset *****
-NumPy - default - validation: 313ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 12ms
+NumPy - default - validation: 295ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 112ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
 DaCe CPU - auto_opt_omp_parallel - median: 6ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 108ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 111ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 108ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 24ms
+DaCe CPU - auto_opt_omp_tasking - median: 109ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 74ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 20ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 15ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 19ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 12ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 33ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 13ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 10ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 19ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 12ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 23ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 15ms
 ***** Testing DaCe CPU with arc_distance on the M dataset *****
-NumPy - default - validation: 200ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 41ms
+NumPy - default - validation: 213ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 84ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 26ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 2636ms
+DaCe CPU - auto_opt_omp_parallel - median: 25ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 2412ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 2493ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 31ms
+DaCe CPU - auto_opt_omp_tasking - median: 2486ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 35ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 26ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 174ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 25ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 154ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 161ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 160ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 36ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 73ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 35ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 72ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 34ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 28ms
 ***** Testing DaCe CPU with azimint_hist on the M dataset *****
-NumPy - default - validation: 175ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 111ms
+NumPy - default - validation: 168ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 202ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
 DaCe CPU - auto_opt_omp_parallel - median: 105ms
 first_execution took too long
@@ -54,1172 +54,168 @@ Implementation "auto_opt_omp_tasking_chunking_absolute_32" timed out.
 first_execution took too long
 Implementation "auto_opt_omp_tasking_chunking_absolute_64" timed out.
 ***** Testing DaCe CPU with azimint_naive on the M dataset *****
-NumPy - default - validation: 10742ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 4063ms
+NumPy - default - validation: 10489ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 4101ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 3966ms
+DaCe CPU - auto_opt_omp_parallel - median: 3989ms
 DaCe CPU - auto_opt_omp_tasking - first/validation: 3020ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 3021ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 3100ms
+DaCe CPU - auto_opt_omp_tasking - median: 3035ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 3061ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 3036ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 3062ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 3072ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 3129ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 3027ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 3063ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 3090ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 3001ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 3047ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 3097ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 3105ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 3123ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 3065ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 3108ms
 ***** Testing DaCe CPU with cavity_flow on the M dataset *****
-NumPy - default - validation: 198ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 33ms
+NumPy - default - validation: 217ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 28ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 27ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 493ms
+DaCe CPU - auto_opt_omp_parallel - median: 26ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 502ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 477ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 153ms
+DaCe CPU - auto_opt_omp_tasking - median: 472ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 158ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 146ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 67ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 140ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 71ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 54ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 58ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 52ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 66ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 49ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 67ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 47ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 73ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 55ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 54ms
 ***** Testing DaCe CPU with channel_flow on the M dataset *****
-NumPy - default - validation: 4331ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 722ms
+NumPy - default - validation: 4426ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 587ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 600ms
+DaCe CPU - auto_opt_omp_parallel - median: 573ms
 first_execution took too long
 Implementation "auto_opt_omp_tasking" timed out.
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 4186ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 3947ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 4084ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 1408ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 3907ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 1429ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 1386ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 1172ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 1339ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 1127ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 1145ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 1241ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 1103ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 1204ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 1228ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 1189ms
 ***** Testing DaCe CPU with cholesky2 on the M dataset *****
-NumPy - default - validation: 276ms
-Failed to compile DaCe cpu auto_opt_omp_parallel implementation.
-Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_parallel/build/CMakeFiles/CMakeOutput.log".
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 208, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_parallel/src" -DDACE_FILES="cpu/auto_opt_omp_parallel.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_parallel -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 216, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_parallel/src" -DDACE_FILES="cpu/auto_opt_omp_parallel.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_parallel -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/dace_framework.py", line 338, in implementations
-    dc_exec = sdfg.compile()
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/sdfg/sdfg.py", line 2258, in compile
-    shared_library = compiler.configure_and_compile(program_folder, sdfg.name)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 222, in configure_and_compile
-    raise cgx.CompilerConfigurationError('Configuration failure:\n' + ex.output)
-dace.codegen.exceptions.CompilerConfigurationError: Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_parallel/build/CMakeFiles/CMakeOutput.log".
-
-Traceback
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking/build/CMakeFiles/CMakeOutput.log".
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 208, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking/src" -DDACE_FILES="cpu/auto_opt_omp_tasking.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 216, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking/src" -DDACE_FILES="cpu/auto_opt_omp_tasking.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/dace_framework.py", line 338, in implementations
-    dc_exec = sdfg.compile()
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/sdfg/sdfg.py", line 2258, in compile
-    shared_library = compiler.configure_and_compile(program_folder, sdfg.name)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 222, in configure_and_compile
-    raise cgx.CompilerConfigurationError('Configuration failure:\n' + ex.output)
-dace.codegen.exceptions.CompilerConfigurationError: Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking/build/CMakeFiles/CMakeOutput.log".
-
-Traceback
-Failed to compile DaCe cpu auto_opt_omp_tasking_chunking_relative_32 implementation.
-Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_relative_32/build/CMakeFiles/CMakeOutput.log".
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 208, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_relative_32/src" -DDACE_FILES="cpu/auto_opt_omp_tasking_chunking_relative_32.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking_chunking_relative_32 -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 216, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_relative_32/src" -DDACE_FILES="cpu/auto_opt_omp_tasking_chunking_relative_32.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking_chunking_relative_32 -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/dace_framework.py", line 338, in implementations
-    dc_exec = sdfg.compile()
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/sdfg/sdfg.py", line 2258, in compile
-    shared_library = compiler.configure_and_compile(program_folder, sdfg.name)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 222, in configure_and_compile
-    raise cgx.CompilerConfigurationError('Configuration failure:\n' + ex.output)
-dace.codegen.exceptions.CompilerConfigurationError: Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_relative_32/build/CMakeFiles/CMakeOutput.log".
-
-Traceback
-Failed to compile DaCe cpu auto_opt_omp_tasking_chunking_absolute_16 implementation.
-Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_16/build/CMakeFiles/CMakeOutput.log".
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 208, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_16/src" -DDACE_FILES="cpu/auto_opt_omp_tasking_chunking_absolute_16.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking_chunking_absolute_16 -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 216, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_16/src" -DDACE_FILES="cpu/auto_opt_omp_tasking_chunking_absolute_16.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking_chunking_absolute_16 -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/dace_framework.py", line 338, in implementations
-    dc_exec = sdfg.compile()
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/sdfg/sdfg.py", line 2258, in compile
-    shared_library = compiler.configure_and_compile(program_folder, sdfg.name)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 222, in configure_and_compile
-    raise cgx.CompilerConfigurationError('Configuration failure:\n' + ex.output)
-dace.codegen.exceptions.CompilerConfigurationError: Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_16/build/CMakeFiles/CMakeOutput.log".
-
-Traceback
-Failed to compile DaCe cpu auto_opt_omp_tasking_chunking_absolute_32 implementation.
-Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_32/build/CMakeFiles/CMakeOutput.log".
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 208, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_32/src" -DDACE_FILES="cpu/auto_opt_omp_tasking_chunking_absolute_32.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking_chunking_absolute_32 -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 216, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_32/src" -DDACE_FILES="cpu/auto_opt_omp_tasking_chunking_absolute_32.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking_chunking_absolute_32 -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/dace_framework.py", line 338, in implementations
-    dc_exec = sdfg.compile()
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/sdfg/sdfg.py", line 2258, in compile
-    shared_library = compiler.configure_and_compile(program_folder, sdfg.name)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 222, in configure_and_compile
-    raise cgx.CompilerConfigurationError('Configuration failure:\n' + ex.output)
-dace.codegen.exceptions.CompilerConfigurationError: Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_32/build/CMakeFiles/CMakeOutput.log".
-
-Traceback
-Failed to compile DaCe cpu auto_opt_omp_tasking_chunking_absolute_64 implementation.
-Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_64/build/CMakeFiles/CMakeOutput.log".
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 208, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_64/src" -DDACE_FILES="cpu/auto_opt_omp_tasking_chunking_absolute_64.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking_chunking_absolute_64 -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 216, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_64/src" -DDACE_FILES="cpu/auto_opt_omp_tasking_chunking_absolute_64.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking_chunking_absolute_64 -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/dace_framework.py", line 338, in implementations
-    dc_exec = sdfg.compile()
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/sdfg/sdfg.py", line 2258, in compile
-    shared_library = compiler.configure_and_compile(program_folder, sdfg.name)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 222, in configure_and_compile
-    raise cgx.CompilerConfigurationError('Configuration failure:\n' + ex.output)
-dace.codegen.exceptions.CompilerConfigurationError: Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_64/build/CMakeFiles/CMakeOutput.log".
-
-Traceback
+NumPy - default - validation: 320ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 276ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 242ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 397ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 208ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 281ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 169ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 209ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 170ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 299ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 168ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 278ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 169ms
 ***** Testing DaCe CPU with compute on the M dataset *****
-NumPy - default - validation: 214ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 59ms
+NumPy - default - validation: 229ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 48ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
 DaCe CPU - auto_opt_omp_parallel - median: 35ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 89ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 87ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 35ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 52ms
+DaCe CPU - auto_opt_omp_tasking - median: 34ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 47ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 35ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 98ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 34ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 97ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 34ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 63ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 65ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 34ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 53ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 50ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 34ms
 ***** Testing DaCe CPU with contour_integral on the M dataset *****
-NumPy - default - validation: 2665ms
-Failed to compile DaCe cpu auto_opt_omp_parallel implementation.
-Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_parallel/build/CMakeFiles/CMakeOutput.log".
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 208, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_parallel/src" -DDACE_FILES="cpu/auto_opt_omp_parallel.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_parallel -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 216, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_parallel/src" -DDACE_FILES="cpu/auto_opt_omp_parallel.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_parallel -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/dace_framework.py", line 338, in implementations
-    dc_exec = sdfg.compile()
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/sdfg/sdfg.py", line 2258, in compile
-    shared_library = compiler.configure_and_compile(program_folder, sdfg.name)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 222, in configure_and_compile
-    raise cgx.CompilerConfigurationError('Configuration failure:\n' + ex.output)
-dace.codegen.exceptions.CompilerConfigurationError: Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_parallel/build/CMakeFiles/CMakeOutput.log".
-
-Traceback
-Failed to compile DaCe cpu auto_opt_omp_tasking implementation.
-Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking/build/CMakeFiles/CMakeOutput.log".
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 208, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking/src" -DDACE_FILES="cpu/auto_opt_omp_tasking.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 216, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking/src" -DDACE_FILES="cpu/auto_opt_omp_tasking.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/dace_framework.py", line 338, in implementations
-    dc_exec = sdfg.compile()
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/sdfg/sdfg.py", line 2258, in compile
-    shared_library = compiler.configure_and_compile(program_folder, sdfg.name)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 222, in configure_and_compile
-    raise cgx.CompilerConfigurationError('Configuration failure:\n' + ex.output)
-dace.codegen.exceptions.CompilerConfigurationError: Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking/build/CMakeFiles/CMakeOutput.log".
-
-Traceback
-Failed to compile DaCe cpu auto_opt_omp_tasking_chunking_relative_32 implementation.
-Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_relative_32/build/CMakeFiles/CMakeOutput.log".
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 208, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_relative_32/src" -DDACE_FILES="cpu/auto_opt_omp_tasking_chunking_relative_32.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking_chunking_relative_32 -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 216, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_relative_32/src" -DDACE_FILES="cpu/auto_opt_omp_tasking_chunking_relative_32.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking_chunking_relative_32 -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/dace_framework.py", line 338, in implementations
-    dc_exec = sdfg.compile()
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/sdfg/sdfg.py", line 2258, in compile
-    shared_library = compiler.configure_and_compile(program_folder, sdfg.name)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 222, in configure_and_compile
-    raise cgx.CompilerConfigurationError('Configuration failure:\n' + ex.output)
-dace.codegen.exceptions.CompilerConfigurationError: Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_relative_32/build/CMakeFiles/CMakeOutput.log".
-
-Traceback
-Failed to compile DaCe cpu auto_opt_omp_tasking_chunking_absolute_16 implementation.
-Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_16/build/CMakeFiles/CMakeOutput.log".
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 208, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_16/src" -DDACE_FILES="cpu/auto_opt_omp_tasking_chunking_absolute_16.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking_chunking_absolute_16 -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 216, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_16/src" -DDACE_FILES="cpu/auto_opt_omp_tasking_chunking_absolute_16.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking_chunking_absolute_16 -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/dace_framework.py", line 338, in implementations
-    dc_exec = sdfg.compile()
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/sdfg/sdfg.py", line 2258, in compile
-    shared_library = compiler.configure_and_compile(program_folder, sdfg.name)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 222, in configure_and_compile
-    raise cgx.CompilerConfigurationError('Configuration failure:\n' + ex.output)
-dace.codegen.exceptions.CompilerConfigurationError: Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_16/build/CMakeFiles/CMakeOutput.log".
-
-Traceback
-Failed to compile DaCe cpu auto_opt_omp_tasking_chunking_absolute_32 implementation.
-Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_32/build/CMakeFiles/CMakeOutput.log".
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 208, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_32/src" -DDACE_FILES="cpu/auto_opt_omp_tasking_chunking_absolute_32.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking_chunking_absolute_32 -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 216, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_32/src" -DDACE_FILES="cpu/auto_opt_omp_tasking_chunking_absolute_32.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking_chunking_absolute_32 -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/dace_framework.py", line 338, in implementations
-    dc_exec = sdfg.compile()
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/sdfg/sdfg.py", line 2258, in compile
-    shared_library = compiler.configure_and_compile(program_folder, sdfg.name)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 222, in configure_and_compile
-    raise cgx.CompilerConfigurationError('Configuration failure:\n' + ex.output)
-dace.codegen.exceptions.CompilerConfigurationError: Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_32/build/CMakeFiles/CMakeOutput.log".
-
-Traceback
-Failed to compile DaCe cpu auto_opt_omp_tasking_chunking_absolute_64 implementation.
-Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_64/build/CMakeFiles/CMakeOutput.log".
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 208, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_64/src" -DDACE_FILES="cpu/auto_opt_omp_tasking_chunking_absolute_64.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking_chunking_absolute_64 -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 216, in configure_and_compile
-    _run_liveoutput(cmake_command, shell=True, cwd=build_folder, output_stream=output_stream)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 413, in _run_liveoutput
-    raise subprocess.CalledProcessError(process.returncode, command, output.getvalue())
-subprocess.CalledProcessError: Command 'cmake  "/files/Dropbox/HS22/DPHPC/dace/dace/codegen" -DDACE_SRC_DIR="/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_64/src" -DDACE_FILES="cpu/auto_opt_omp_tasking_chunking_absolute_64.cpp" -DDACE_PROGRAM_NAME=auto_opt_omp_tasking_chunking_absolute_64 -DDACE_ENV_CMAKE_FILES="" -DDACE_ENV_COMPILE_FLAGS="" -DDACE_ENV_INCLUDES="/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/environments" -DDACE_ENV_LIBRARIES="" -DDACE_ENV_MINIMUM_VERSION=3.6 -DDACE_ENV_PACKAGES="BLAS LAPACK" -DDACE_ENV_VAR_KEYS="BLA_VENDOR" -DDACE_ENV_VAR_VALUES="OpenBLAS" -DCMAKE_CXX_FLAGS="-std=c++14 -fPIC -Wall -Wextra -O3 -march=native -ffast-math -Wno-unused-parameter -Wno-unused-label" -DDACE_LIBS="" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_SHARED_LINKER_FLAGS="${LAPACK_LINKER_FLAGS} ${BLAS_LINKER_FLAGS} -Wl,--disable-new-dtags"' returned non-zero exit status 1.
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/dace_framework.py", line 338, in implementations
-    dc_exec = sdfg.compile()
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/sdfg/sdfg.py", line 2258, in compile
-    shared_library = compiler.configure_and_compile(program_folder, sdfg.name)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/codegen/compiler.py", line 222, in configure_and_compile
-    raise cgx.CompilerConfigurationError('Configuration failure:\n' + ex.output)
-dace.codegen.exceptions.CompilerConfigurationError: Configuration failure:
--- The C compiler identification is GNU 11.3.0
--- The CXX compiler identification is GNU 11.3.0
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Check for working C compiler: /usr/bin/cc - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
--- Detecting CXX compiler ABI info - done
--- Check for working CXX compiler: /usr/bin/c++ - skipped
--- Detecting CXX compile features
--- Detecting CXX compile features - done
--- Looking for pthread.h
--- Looking for pthread.h - found
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD
--- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
--- Found Threads: TRUE
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5") found components: CXX
-CMake Error at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:230 (message):
-  Could NOT find BLAS (missing: BLAS_LIBRARIES)
-Call Stack (most recent call first):
-  /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:594 (_FPHSA_FAILURE_MESSAGE)
-  /usr/share/cmake-3.22/Modules/FindBLAS.cmake:1337 (find_package_handle_standard_args)
-  CMakeLists.txt:187 (find_package)
-
--- Configuring incomplete, errors occurred!
-See also "/files/Dropbox/HS22/DPHPC/npbench/.dacecache/auto_opt_omp_tasking_chunking_absolute_64/build/CMakeFiles/CMakeOutput.log".
-
-Traceback
-***** Testing DaCe CPU with conv2d_bias on the M dataset *****
-NumPy - default - validation: 230ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 283ms
+NumPy - default - validation: 2404ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 6520ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 184ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 180ms
+DaCe CPU - auto_opt_omp_parallel - median: 4158ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 4835ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 171ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 215ms
+DaCe CPU - auto_opt_omp_tasking - median: 4447ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 3170ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 182ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 266ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 4037ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 3971ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 241ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 428ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 4361ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 4235ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 403ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 741ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 4229ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 3345ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 718ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 4184ms
+***** Testing DaCe CPU with conv2d_bias on the M dataset *****
+NumPy - default - validation: 208ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 182ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 173ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 175ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 164ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 179ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 166ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 270ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 215ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 406ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 394ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 737ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 716ms
 ***** Testing DaCe CPU with correlation on the M dataset *****
-NumPy - default - validation: 1570ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 6672ms
+NumPy - default - validation: 1298ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 700ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 5747ms
-first_execution took too long
-Implementation "auto_opt_omp_tasking" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_relative_32" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_absolute_16" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_absolute_32" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_absolute_64" timed out.
+DaCe CPU - auto_opt_omp_parallel - median: 714ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 754ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 728ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 708ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 715ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 760ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 722ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 662ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 697ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 732ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 719ms
 ***** Testing DaCe CPU with covariance on the M dataset *****
-NumPy - default - validation: 926ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 6524ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 5798ms
+NumPy - default - validation: 1558ms
+first_execution took too long
+Implementation "auto_opt_omp_parallel" timed out.
 first_execution took too long
 Implementation "auto_opt_omp_tasking" timed out.
 first_execution took too long
@@ -1231,537 +227,365 @@ Implementation "auto_opt_omp_tasking_chunking_absolute_32" timed out.
 first_execution took too long
 Implementation "auto_opt_omp_tasking_chunking_absolute_64" timed out.
 ***** Testing DaCe CPU with deriche on the M dataset *****
-NumPy - default - validation: 161ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 25ms
+NumPy - default - validation: 157ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 24ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
 DaCe CPU - auto_opt_omp_parallel - median: 17ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 44ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 40ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 39ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 44ms
+DaCe CPU - auto_opt_omp_tasking - median: 38ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 31ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 19ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 28ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 50ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 18ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 29ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 22ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 53ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 19ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 29ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 31ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 143ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 18ms
 ***** Testing DaCe CPU with doitgen on the M dataset *****
-NumPy - default - validation: 1113ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 2754ms
+NumPy - default - validation: 1569ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 271ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 2642ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 2638ms
+DaCe CPU - auto_opt_omp_parallel - median: 235ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 199ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 2636ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 2961ms
+DaCe CPU - auto_opt_omp_tasking - median: 179ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 257ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 2953ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 2998ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 199ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 222ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 3011ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 5657ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 227ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 204ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 5645ms
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_absolute_64" timed out.
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 215ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 234ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 174ms
 ***** Testing DaCe CPU with durbin on the M dataset *****
-NumPy - default - validation: 199ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 3333ms
+NumPy - default - validation: 165ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 157ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 2973ms
+DaCe CPU - auto_opt_omp_parallel - median: 125ms
 first_execution took too long
 Implementation "auto_opt_omp_tasking" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_relative_32" timed out.
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 1531ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 1535ms
 first_execution took too long
 Implementation "auto_opt_omp_tasking_chunking_absolute_16" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_absolute_32" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_absolute_64" timed out.
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 4279ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 4348ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 2309ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 2309ms
 ***** Testing DaCe CPU with fdtd_2d on the M dataset *****
-NumPy - default - validation: 159ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 17ms
+NumPy - default - validation: 170ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 38ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 14ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 259ms
+DaCe CPU - auto_opt_omp_parallel - median: 12ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 267ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 264ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 43ms
+DaCe CPU - auto_opt_omp_tasking - median: 267ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 42ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 25ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 25ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 24ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 24ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 22ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 28ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 35ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 21ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 29ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 20ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 22ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 21ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 20ms
 ***** Testing DaCe CPU with floyd_warshall on the M dataset *****
-NumPy - default - validation: 133ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 73ms
+NumPy - default - validation: 123ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 60ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 53ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 672ms
+DaCe CPU - auto_opt_omp_parallel - median: 51ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 628ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 426ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 67ms
+DaCe CPU - auto_opt_omp_tasking - median: 413ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 74ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 58ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 72ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 57ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 75ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 57ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 67ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 56ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 73ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 58ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 71ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 57ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 77ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 60ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 59ms
 ***** Testing DaCe CPU with gemm on the M dataset *****
-NumPy - default - validation: 969ms
-first_execution took too long
-Implementation "auto_opt_omp_parallel" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_relative_32" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_absolute_16" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_absolute_32" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_absolute_64" timed out.
-***** Testing DaCe CPU with gemver on the M dataset *****
-NumPy - default - validation: 128ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 110ms
+NumPy - default - validation: 1025ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 494ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 79ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 521ms
+DaCe CPU - auto_opt_omp_parallel - median: 495ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 513ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 503ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 506ms
+DaCe CPU - auto_opt_omp_tasking - median: 487ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 495ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 489ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 509ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 486ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 494ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 492ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 491ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 482ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 488ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 483ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 518ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 487ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 525ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 485ms
-***** Testing DaCe CPU with gesummv on the M dataset *****
-NumPy - default - validation: 122ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 140ms
+***** Testing DaCe CPU with gemver on the M dataset *****
+NumPy - default - validation: 123ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 69ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 132ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 914ms
+DaCe CPU - auto_opt_omp_parallel - median: 115ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 191ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 880ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 889ms
+DaCe CPU - auto_opt_omp_tasking - median: 141ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 181ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 869ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 889ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 106ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 114ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 879ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 894ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 130ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 135ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 876ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 889ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 120ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 156ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 873ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 111ms
+***** Testing DaCe CPU with gesummv on the M dataset *****
+NumPy - default - validation: 100ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 94ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 73ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 126ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 97ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 102ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 87ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 180ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 76ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 113ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 77ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 111ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 77ms
 ***** Testing DaCe CPU with go_fast on the M dataset *****
-NumPy - default - validation: 88ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 56ms
+NumPy - default - validation: 107ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 63ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
 DaCe CPU - auto_opt_omp_parallel - median: 37ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 121ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 117ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking - median: 36ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 56ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 36ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 113ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 37ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 111ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 37ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 75ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 36ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 72ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 36ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 60ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 62ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 36ms
 ***** Testing DaCe CPU with gramschmidt on the M dataset *****
-NumPy - default - validation: 233ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 109ms
+NumPy - default - validation: 270ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 100ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 49ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 712ms
+DaCe CPU - auto_opt_omp_parallel - median: 10ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 164ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 265ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 181ms
+DaCe CPU - auto_opt_omp_tasking - median: 168ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 61ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 170ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 184ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 41ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 33ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 169ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 195ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 18ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 20ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 183ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 239ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 13ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 20ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 224ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 14ms
 ***** Testing DaCe CPU with hdiff on the M dataset *****
-NumPy - default - validation: 127ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 19ms
+NumPy - default - validation: 116ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 30ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 16ms
+DaCe CPU - auto_opt_omp_parallel - median: 15ms
 DaCe CPU - auto_opt_omp_tasking - first/validation: 18ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking - median: 13ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 37ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 30ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 18ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 29ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 31ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 16ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 35ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 18ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 70ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 21ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 50ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 23ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 64ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 31ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 32ms
 ***** Testing DaCe CPU with heat_3d on the M dataset *****
-NumPy - default - validation: 168ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 35ms
+NumPy - default - validation: 184ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 13ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 5ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 11ms
+DaCe CPU - auto_opt_omp_parallel - median: 6ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 8ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking - median: 8ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 8ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 8ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 16ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 24ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 14ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 33ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 37ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 28ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 60ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 30ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 68ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 32ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 30ms
 ***** Testing DaCe CPU with jacobi_1d on the M dataset *****
-NumPy - default - validation: 286ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 219ms
+NumPy - default - validation: 282ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 103ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 49ms
+DaCe CPU - auto_opt_omp_parallel - median: 47ms
 first_execution took too long
 Implementation "auto_opt_omp_tasking" timed out.
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 570ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 523ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 526ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 509ms
 first_execution took too long
 Implementation "auto_opt_omp_tasking_chunking_absolute_16" timed out.
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 6085ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 5752ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 5816ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 2911ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 5818ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 2845ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 2974ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 2905ms
 ***** Testing DaCe CPU with jacobi_2d on the M dataset *****
-NumPy - default - validation: 164ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 16ms
+NumPy - default - validation: 157ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 114ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
 DaCe CPU - auto_opt_omp_parallel - median: 11ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 183ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 181ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 153ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 19ms
+DaCe CPU - auto_opt_omp_tasking - median: 150ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 16ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 13ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 20ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 16ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 13ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 17ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 30ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 14ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 19ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 16ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 17ms
 ***** Testing DaCe CPU with k2mm on the M dataset *****
-NumPy - default - validation: 1145ms
-first_execution took too long
-Implementation "auto_opt_omp_parallel" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_relative_32" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_absolute_16" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_absolute_32" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_absolute_64" timed out.
-***** Testing DaCe CPU with lenet on the M dataset *****
-NumPy - default - validation: 218ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 178ms
+NumPy - default - validation: 1397ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 608ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 191ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 188ms
+DaCe CPU - auto_opt_omp_parallel - median: 570ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 658ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 176ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 191ms
+DaCe CPU - auto_opt_omp_tasking - median: 567ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 591ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 179ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 428ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 569ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 605ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 411ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 606ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 567ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 645ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 600ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 737ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 568ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 638ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 736ms
-***** Testing DaCe CPU with ludcmp on the M dataset *****
-NumPy - default - validation: 309ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 989ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 566ms
+***** Testing DaCe CPU with lenet on the M dataset *****
+NumPy - default - validation: 206ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 207ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 910ms
-first_execution took too long
-Implementation "auto_opt_omp_tasking" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_relative_32" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_absolute_16" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_absolute_32" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_absolute_64" timed out.
+DaCe CPU - auto_opt_omp_parallel - median: 305ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 360ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 270ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 243ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 258ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 504ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 535ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 681ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 729ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 816ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 842ms
+***** Testing DaCe CPU with ludcmp on the M dataset *****
+NumPy - default - validation: 362ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 27ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 6ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 9ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 7ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 10ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 6ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 8ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 6ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 8ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 6ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 8ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 6ms
 ***** Testing DaCe CPU with mandelbrot1 on the M dataset *****
-NumPy - default - validation: 363ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 26ms
+NumPy - default - validation: 335ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 17ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
 DaCe CPU - auto_opt_omp_parallel - median: 11ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 23ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 25ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking - median: 14ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 17ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 24ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 10ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 16ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 10ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 19ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 40ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 13ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 32ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 12ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 34ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 21ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 22ms
 ***** Testing DaCe CPU with mandelbrot2 on the M dataset *****
-NumPy - default - validation: 373ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 172ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 165ms
-first_execution took too long
-Implementation "auto_opt_omp_tasking" timed out.
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 187ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 163ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 4094ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 4063ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 2140ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 2107ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 1182ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 1137ms
-***** Testing DaCe CPU with mlp on the M dataset *****
-NumPy - default - validation: 957ms
-first_execution took too long
-Implementation "auto_opt_omp_parallel" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_relative_32" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_absolute_16" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_absolute_32" timed out.
-first_execution took too long
-Implementation "auto_opt_omp_tasking_chunking_absolute_64" timed out.
-***** Testing DaCe CPU with mvt on the M dataset *****
-NumPy - default - validation: 113ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 811ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 802ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 6088ms
-DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 6146ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 6098ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 6066ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 6033ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 6072ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 6041ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 6037ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 6055ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 6054ms
-***** Testing DaCe CPU with nbody on the M dataset *****
-NumPy - default - validation: 122ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 36ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 31ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 755ms
-DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 679ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 696ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 524ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 272ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 259ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 257ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 246ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 301ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 245ms
-***** Testing DaCe CPU with nussinov on the M dataset *****
-NumPy - default - validation: 225ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 54ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 0ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 2ms
-DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 1ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 2ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 1ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 2ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 0ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 2ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 0ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 2ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 0ms
-***** Testing DaCe CPU with resnet on the M dataset *****
-NumPy - default - validation: 247ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 533ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 504ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 522ms
-DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 529ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 543ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 530ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 1174ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 1137ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 1879ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 1856ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 1877ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 1857ms
-***** Testing DaCe CPU with scattering_self_energies on the M dataset *****
-NumPy - default - validation: 149ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 307ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 260ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 247ms
-DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 241ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 254ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 243ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 176ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 170ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 177ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 169ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 178ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 169ms
-***** Testing DaCe CPU with seidel_2d on the M dataset *****
-NumPy - default - validation: 265ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 102ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 12ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 727ms
-DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 692ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 245ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 237ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 68ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 60ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 47ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 39ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 33ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 24ms
-***** Testing DaCe CPU with softmax on the M dataset *****
-NumPy - default - validation: 137ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 156ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 133ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 157ms
-DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 127ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 160ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 126ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 210ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 172ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 311ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 246ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 312ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 246ms
-***** Testing DaCe CPU with spmv on the M dataset *****
-NumPy - default - validation: 206ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 57ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 40ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 103ms
-DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 102ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 50ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 41ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 44ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 40ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 43ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 39ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 42ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 39ms
-***** Testing DaCe CPU with stockham_fft on the M dataset *****
-NumPy - default - validation: 384ms
+NumPy - default - validation: 341ms
 DaCe autoopt failed
-Process Process-41:
+Process Process-31:
 Traceback (most recent call last):
   File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/dace_framework.py", line 202, in implementations
     _, auto_time = util.benchmark(f"autoopt(auto_opt_sdfg, device, symbols = locals())",
@@ -1784,19 +608,9 @@ Traceback (most recent call last):
     transformation.apply(state, sdfg, *args, **kwargs)
   File "/files/Dropbox/HS22/DPHPC/dace/dace/transformation/transformation.py", line 602, in apply
     expansion = type(self).expansion(node, state, sdfg, *args, **kwargs)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/nodes/gemm.py", line 146, in expansion
-    return ExpandGemmPure.make_sdfg(node, state, sdfg)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/nodes/gemm.py", line 98, in make_sdfg
-    init_state.add_mapped_tasklet(
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/sdfg/state.py", line 1276, in add_mapped_tasklet
-    map = nd.Map(map_name, *_make_iterators(map_ranges), schedule=schedule, unroll=unroll_map, debuginfo=debuginfo)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/sdfg/state.py", line 59, in _make_iterators
-    rng = SubsetProperty.from_string(prange)[0]
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/properties.py", line 1147, in from_string
-    ranges = sbs.Range.from_string(s)
-  File "/files/Dropbox/HS22/DPHPC/dace/dace/subsets.py", line 470, in from_string
-    raise SyntaxError("Invalid range: {}".format(multi_dim_tokens))
-SyntaxError: Invalid range: [['0', '(dace', '', 'math', '', 'pow(R, K - 1))']]
+  File "/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/nodes/transpose.py", line 158, in expansion
+    raise ValueError("Unsupported type for OpenBLAS omatcopy extension: " + str(dtype))
+ValueError: Unsupported type for OpenBLAS omatcopy extension: long long
 
 During handling of the above exception, another exception occurred:
 
@@ -1812,32 +626,251 @@ Traceback (most recent call last):
   File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/dace_framework.py", line 212, in implementations
     print(e.with_traceback())
 TypeError: BaseException.with_traceback() takes exactly one argument (0 given)
-***** Testing DaCe CPU with symm on the M dataset *****
-NumPy - default - validation: 182ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 88ms
+***** Testing DaCe CPU with mlp on the M dataset *****
+NumPy - default - validation: 303ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 765ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 28ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 67ms
+DaCe CPU - auto_opt_omp_parallel - median: 514ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 422ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 56ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 89ms
+DaCe CPU - auto_opt_omp_tasking - median: 524ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 639ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 34ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 53ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 544ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 467ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 43ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 75ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 713ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 700ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 45ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 73ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 612ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 679ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 64ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 584ms
+***** Testing DaCe CPU with mvt on the M dataset *****
+NumPy - default - validation: 113ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 180ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 145ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 207ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 192ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 139ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 134ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 130ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 124ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 155ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 124ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 131ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 123ms
+***** Testing DaCe CPU with nbody on the M dataset *****
+NumPy - default - validation: 121ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 24ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 21ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 540ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 470ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 307ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 308ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 61ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 57ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 48ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 44ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 46ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 42ms
+***** Testing DaCe CPU with nussinov on the M dataset *****
+NumPy - default - validation: 195ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 14ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 0ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 2ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 3ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 2ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 0ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 2ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 0ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 2ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 0ms
+***** Testing DaCe CPU with resnet on the M dataset *****
+NumPy - default - validation: 203ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 546ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 503ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 538ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 527ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 536ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 523ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 1138ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 1133ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 1857ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 1845ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 1871ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 1845ms
+***** Testing DaCe CPU with scattering_self_energies on the M dataset *****
+NumPy - default - validation: 138ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 70ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 25ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 57ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 27ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 62ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 31ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 33ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 14ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 47ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 14ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 18ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 15ms
+***** Testing DaCe CPU with seidel_2d on the M dataset *****
+NumPy - default - validation: 184ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 55ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 14ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 750ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 675ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 244ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 228ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 74ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 58ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 54ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 37ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 42ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 23ms
+***** Testing DaCe CPU with softmax on the M dataset *****
+NumPy - default - validation: 139ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 203ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 127ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 171ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 122ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 155ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 126ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 223ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 177ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 317ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 243ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 316ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 244ms
+***** Testing DaCe CPU with spmv on the M dataset *****
+NumPy - default - validation: 203ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 18ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 2ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 97ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 83ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 4ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 9ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 6ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 6ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 3ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 3ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 2ms
+***** Testing DaCe CPU with stockham_fft on the M dataset *****
+NumPy - default - validation: 377ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 1737ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 1719ms
+first_execution took too long
+Implementation "auto_opt_omp_tasking" timed out.
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 1277ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 1876ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 2907ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 2823ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 2310ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 2366ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 2311ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 2073ms
+***** Testing DaCe CPU with symm on the M dataset *****
+NumPy - default - validation: 216ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 79ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 3ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 62ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 50ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 48ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 12ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 5ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 5ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 4ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 3ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 4ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 4ms
 ***** Testing DaCe CPU with syr2k on the M dataset *****
-NumPy - default - validation: 202ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 28ms
+NumPy - default - validation: 230ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 29ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
 DaCe CPU - auto_opt_omp_parallel - median: 1ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 1ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 22ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 2ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 2ms
+***** Testing DaCe CPU with syrk on the M dataset *****
+NumPy - default - validation: 132ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 26ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 2ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 26ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking - median: 1ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 1ms
@@ -1848,69 +881,49 @@ DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 1ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 2ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 1ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 4ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 2ms
-***** Testing DaCe CPU with syrk on the M dataset *****
-NumPy - default - validation: 167ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 31ms
-DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 2ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 2ms
-DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 1ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 2ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 1ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 1ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 1ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 2ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 2ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 2ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 2ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 3ms
 ***** Testing DaCe CPU with trmm on the M dataset *****
-NumPy - default - validation: 172ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 103ms
+NumPy - default - validation: 203ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 5ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 86ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 169ms
+DaCe CPU - auto_opt_omp_parallel - median: 3ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 178ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 145ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 102ms
+DaCe CPU - auto_opt_omp_tasking - median: 172ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 18ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 84ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 97ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 18ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 12ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 82ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 87ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 10ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 6ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 82ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 139ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 5ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 5ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 130ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 5ms
 ***** Testing DaCe CPU with vadv on the M dataset *****
-NumPy - default - validation: 269ms
-DaCe CPU - auto_opt_omp_parallel - first/validation: 111ms
+NumPy - default - validation: 253ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 68ms
 DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
-DaCe CPU - auto_opt_omp_parallel - median: 72ms
-DaCe CPU - auto_opt_omp_tasking - first/validation: 154ms
+DaCe CPU - auto_opt_omp_parallel - median: 73ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 1003ms
 DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking - median: 144ms
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 97ms
+DaCe CPU - auto_opt_omp_tasking - median: 139ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 92ms
 DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 83ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 97ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 82ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 80ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 78ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 107ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 76ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 96ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 93ms
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 143ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 90ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 129ms
 DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
-DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 127ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 121ms
 Failed: 1 out of 46
-stockham_fft
+mandelbrot2
