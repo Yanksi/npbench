@@ -1,0 +1,929 @@
+***** Testing DaCe CPU with adi on the M dataset *****
+NumPy - default - validation: 295ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 112ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 6ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 111ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 109ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 74ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 20ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 19ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 12ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 13ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 12ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 23ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 15ms
+***** Testing DaCe CPU with arc_distance on the M dataset *****
+NumPy - default - validation: 213ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 84ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 25ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 2412ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 2486ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 35ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 25ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 154ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 160ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 36ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 72ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 34ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 28ms
+***** Testing DaCe CPU with azimint_hist on the M dataset *****
+NumPy - default - validation: 168ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 202ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 105ms
+first_execution took too long
+Implementation "auto_opt_omp_tasking" timed out.
+first_execution took too long
+Implementation "auto_opt_omp_tasking_chunking_relative_32" timed out.
+first_execution took too long
+Implementation "auto_opt_omp_tasking_chunking_absolute_16" timed out.
+first_execution took too long
+Implementation "auto_opt_omp_tasking_chunking_absolute_32" timed out.
+first_execution took too long
+Implementation "auto_opt_omp_tasking_chunking_absolute_64" timed out.
+***** Testing DaCe CPU with azimint_naive on the M dataset *****
+NumPy - default - validation: 10489ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 4101ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 3989ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 3020ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 3035ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 3061ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 3072ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 3129ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 3090ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 3001ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 3105ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 3123ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 3108ms
+***** Testing DaCe CPU with cavity_flow on the M dataset *****
+NumPy - default - validation: 217ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 28ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 26ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 502ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 472ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 158ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 140ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 71ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 52ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 66ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 47ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 73ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 54ms
+***** Testing DaCe CPU with channel_flow on the M dataset *****
+NumPy - default - validation: 4426ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 587ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 573ms
+first_execution took too long
+Implementation "auto_opt_omp_tasking" timed out.
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 3947ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 3907ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 1429ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 1339ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 1127ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 1103ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 1204ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 1189ms
+***** Testing DaCe CPU with cholesky2 on the M dataset *****
+NumPy - default - validation: 320ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 276ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 242ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 397ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 208ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 281ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 169ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 209ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 170ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 299ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 168ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 278ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 169ms
+***** Testing DaCe CPU with compute on the M dataset *****
+NumPy - default - validation: 229ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 48ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 35ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 87ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 34ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 47ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 34ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 97ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 34ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 65ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 34ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 50ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 34ms
+***** Testing DaCe CPU with contour_integral on the M dataset *****
+NumPy - default - validation: 2404ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 6520ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 4158ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 4835ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 4447ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 3170ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 4037ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 3971ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 4361ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 4235ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 4229ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 3345ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 4184ms
+***** Testing DaCe CPU with conv2d_bias on the M dataset *****
+NumPy - default - validation: 208ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 182ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 173ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 175ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 164ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 179ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 166ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 270ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 215ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 406ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 394ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 737ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 716ms
+***** Testing DaCe CPU with correlation on the M dataset *****
+NumPy - default - validation: 1298ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 700ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 714ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 754ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 728ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 708ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 715ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 760ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 722ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 662ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 697ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 732ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 719ms
+***** Testing DaCe CPU with covariance on the M dataset *****
+NumPy - default - validation: 1558ms
+first_execution took too long
+Implementation "auto_opt_omp_parallel" timed out.
+first_execution took too long
+Implementation "auto_opt_omp_tasking" timed out.
+first_execution took too long
+Implementation "auto_opt_omp_tasking_chunking_relative_32" timed out.
+first_execution took too long
+Implementation "auto_opt_omp_tasking_chunking_absolute_16" timed out.
+first_execution took too long
+Implementation "auto_opt_omp_tasking_chunking_absolute_32" timed out.
+first_execution took too long
+Implementation "auto_opt_omp_tasking_chunking_absolute_64" timed out.
+***** Testing DaCe CPU with deriche on the M dataset *****
+NumPy - default - validation: 157ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 24ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 17ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 40ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 38ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 31ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 19ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 50ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 22ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 53ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 31ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 143ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 18ms
+***** Testing DaCe CPU with doitgen on the M dataset *****
+NumPy - default - validation: 1569ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 271ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 235ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 199ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 179ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 257ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 199ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 222ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 227ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 204ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 215ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 234ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 174ms
+***** Testing DaCe CPU with durbin on the M dataset *****
+NumPy - default - validation: 165ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 157ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 125ms
+first_execution took too long
+Implementation "auto_opt_omp_tasking" timed out.
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 1531ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 1535ms
+first_execution took too long
+Implementation "auto_opt_omp_tasking_chunking_absolute_16" timed out.
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 4279ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 4348ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 2309ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 2309ms
+***** Testing DaCe CPU with fdtd_2d on the M dataset *****
+NumPy - default - validation: 170ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 38ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 12ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 267ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 267ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 42ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 24ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 24ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 22ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 35ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 20ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 22ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 20ms
+***** Testing DaCe CPU with floyd_warshall on the M dataset *****
+NumPy - default - validation: 123ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 60ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 51ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 628ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 413ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 74ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 57ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 75ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 56ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 73ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 57ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 77ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 59ms
+***** Testing DaCe CPU with gemm on the M dataset *****
+NumPy - default - validation: 1025ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 494ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 495ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 513ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 487ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 495ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 486ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 494ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 482ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 488ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 487ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 525ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 485ms
+***** Testing DaCe CPU with gemver on the M dataset *****
+NumPy - default - validation: 123ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 69ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 115ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 191ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 141ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 181ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 106ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 114ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 130ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 135ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 120ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 156ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 111ms
+***** Testing DaCe CPU with gesummv on the M dataset *****
+NumPy - default - validation: 100ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 94ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 73ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 126ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 97ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 102ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 87ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 180ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 76ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 113ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 77ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 111ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 77ms
+***** Testing DaCe CPU with go_fast on the M dataset *****
+NumPy - default - validation: 107ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 63ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 37ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 117ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 36ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 56ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 37ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 111ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 36ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 72ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 36ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 62ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 36ms
+***** Testing DaCe CPU with gramschmidt on the M dataset *****
+NumPy - default - validation: 270ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 100ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 10ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 164ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 168ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 61ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 41ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 33ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 18ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 20ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 13ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 20ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 14ms
+***** Testing DaCe CPU with hdiff on the M dataset *****
+NumPy - default - validation: 116ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 30ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 15ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 18ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 13ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 30ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 18ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 31ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 18ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 70ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 23ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 64ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 32ms
+***** Testing DaCe CPU with heat_3d on the M dataset *****
+NumPy - default - validation: 184ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 13ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 6ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 8ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 8ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 8ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 8ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 24ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 14ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 37ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 30ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 68ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 30ms
+***** Testing DaCe CPU with jacobi_1d on the M dataset *****
+NumPy - default - validation: 282ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 103ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 47ms
+first_execution took too long
+Implementation "auto_opt_omp_tasking" timed out.
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 523ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 509ms
+first_execution took too long
+Implementation "auto_opt_omp_tasking_chunking_absolute_16" timed out.
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 5752ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 5818ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 2845ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 2905ms
+***** Testing DaCe CPU with jacobi_2d on the M dataset *****
+NumPy - default - validation: 157ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 114ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 11ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 181ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 150ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 16ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 13ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 16ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 13ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 30ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 14ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 19ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 17ms
+***** Testing DaCe CPU with k2mm on the M dataset *****
+NumPy - default - validation: 1397ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 608ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 570ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 658ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 567ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 591ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 569ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 605ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 567ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 645ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 568ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 638ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 566ms
+***** Testing DaCe CPU with lenet on the M dataset *****
+NumPy - default - validation: 206ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 207ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 305ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 360ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 270ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 243ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 258ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 504ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 535ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 681ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 729ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 816ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 842ms
+***** Testing DaCe CPU with ludcmp on the M dataset *****
+NumPy - default - validation: 362ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 27ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 6ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 9ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 7ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 10ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 6ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 8ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 6ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 8ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 6ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 8ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 6ms
+***** Testing DaCe CPU with mandelbrot1 on the M dataset *****
+NumPy - default - validation: 335ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 17ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 11ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 25ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 14ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 24ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 10ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 16ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 10ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 40ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 12ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 34ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 22ms
+***** Testing DaCe CPU with mandelbrot2 on the M dataset *****
+NumPy - default - validation: 341ms
+DaCe autoopt failed
+Process Process-31:
+Traceback (most recent call last):
+  File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/dace_framework.py", line 202, in implementations
+    _, auto_time = util.benchmark(f"autoopt(auto_opt_sdfg, device, symbols = locals())",
+  File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/utilities.py", line 140, in benchmark
+    output = timeit.repeat(stmt, setup=setup, repeat=repeat, number=1, globals=ldict)
+  File "/usr/lib/python3.10/timeit.py", line 239, in repeat
+    return Timer(stmt, setup, timer, globals).repeat(repeat, number)
+  File "/usr/lib/python3.10/timeit.py", line 206, in repeat
+    t = self.timeit(number)
+  File "/usr/lib/python3.10/timeit.py", line 178, in timeit
+    timing = self.inner(it, self.timer)
+  File "<timeit-src>", line 6, in inner
+  File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/dace_framework.py", line 195, in autoopt
+    opt.auto_optimize(sdfg, device, symbols=symbols)
+  File "/files/Dropbox/HS22/DPHPC/dace/dace/transformation/auto/auto_optimize.py", line 590, in auto_optimize
+    sdfg.expand_library_nodes()
+  File "/files/Dropbox/HS22/DPHPC/dace/dace/sdfg/sdfg.py", line 2649, in expand_library_nodes
+    impl_name = node.expand(self, state)
+  File "/files/Dropbox/HS22/DPHPC/dace/dace/sdfg/nodes.py", line 1314, in expand
+    transformation.apply(state, sdfg, *args, **kwargs)
+  File "/files/Dropbox/HS22/DPHPC/dace/dace/transformation/transformation.py", line 602, in apply
+    expansion = type(self).expansion(node, state, sdfg, *args, **kwargs)
+  File "/files/Dropbox/HS22/DPHPC/dace/dace/libraries/blas/nodes/transpose.py", line 158, in expansion
+    raise ValueError("Unsupported type for OpenBLAS omatcopy extension: " + str(dtype))
+ValueError: Unsupported type for OpenBLAS omatcopy extension: long long
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/files/Dropbox/HS22/DPHPC/npbench/run_framework.py", line 19, in run_benchmark
+    test.run(preset, validate, repeat, timeout, ignore_errors)
+  File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/test.py", line 88, in run
+    for impl, impl_name in self.frmwrk.implementations(self.bench):
+  File "/files/Dropbox/HS22/DPHPC/npbench/npbench/infrastructure/dace_framework.py", line 212, in implementations
+    print(e.with_traceback())
+TypeError: BaseException.with_traceback() takes exactly one argument (0 given)
+***** Testing DaCe CPU with mlp on the M dataset *****
+NumPy - default - validation: 303ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 765ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 514ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 422ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 524ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 639ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 544ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 467ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 713ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 700ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 612ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 679ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 584ms
+***** Testing DaCe CPU with mvt on the M dataset *****
+NumPy - default - validation: 113ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 180ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 145ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 207ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 192ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 139ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 134ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 130ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 124ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 155ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 124ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 131ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 123ms
+***** Testing DaCe CPU with nbody on the M dataset *****
+NumPy - default - validation: 121ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 24ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 21ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 540ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 470ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 307ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 308ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 61ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 57ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 48ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 44ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 46ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 42ms
+***** Testing DaCe CPU with nussinov on the M dataset *****
+NumPy - default - validation: 195ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 14ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 0ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 2ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 3ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 2ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 0ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 2ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 0ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 2ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 0ms
+***** Testing DaCe CPU with resnet on the M dataset *****
+NumPy - default - validation: 203ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 546ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 503ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 538ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 527ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 536ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 523ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 1138ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 1133ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 1857ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 1845ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 1871ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 1845ms
+***** Testing DaCe CPU with scattering_self_energies on the M dataset *****
+NumPy - default - validation: 138ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 70ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 25ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 57ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 27ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 62ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 31ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 33ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 14ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 47ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 14ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 18ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 15ms
+***** Testing DaCe CPU with seidel_2d on the M dataset *****
+NumPy - default - validation: 184ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 55ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 14ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 750ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 675ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 244ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 228ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 74ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 58ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 54ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 37ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 42ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 23ms
+***** Testing DaCe CPU with softmax on the M dataset *****
+NumPy - default - validation: 139ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 203ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 127ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 171ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 122ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 155ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 126ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 223ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 177ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 317ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 243ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 316ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 244ms
+***** Testing DaCe CPU with spmv on the M dataset *****
+NumPy - default - validation: 203ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 18ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 2ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 97ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 83ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 4ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 9ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 6ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 6ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 3ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 3ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 2ms
+***** Testing DaCe CPU with stockham_fft on the M dataset *****
+NumPy - default - validation: 377ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 1737ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 1719ms
+first_execution took too long
+Implementation "auto_opt_omp_tasking" timed out.
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 1277ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 1876ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 2907ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 2823ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 2310ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 2366ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 2311ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 2073ms
+***** Testing DaCe CPU with symm on the M dataset *****
+NumPy - default - validation: 216ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 79ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 3ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 62ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 50ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 48ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 12ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 5ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 5ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 4ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 3ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 4ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 4ms
+***** Testing DaCe CPU with syr2k on the M dataset *****
+NumPy - default - validation: 230ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 29ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 1ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 22ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 2ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 2ms
+***** Testing DaCe CPU with syrk on the M dataset *****
+NumPy - default - validation: 132ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 26ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 2ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 26ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 1ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 2ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 2ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 2ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 3ms
+***** Testing DaCe CPU with trmm on the M dataset *****
+NumPy - default - validation: 203ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 5ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 3ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 178ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 172ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 18ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 18ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 12ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 10ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 6ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 5ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 5ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 5ms
+***** Testing DaCe CPU with vadv on the M dataset *****
+NumPy - default - validation: 253ms
+DaCe CPU - auto_opt_omp_parallel - first/validation: 68ms
+DaCe CPU - auto_opt_omp_parallel - validation: SUCCESS
+DaCe CPU - auto_opt_omp_parallel - median: 73ms
+DaCe CPU - auto_opt_omp_tasking - first/validation: 1003ms
+DaCe CPU - auto_opt_omp_tasking - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking - median: 139ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - first/validation: 92ms
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_relative_32 - median: 82ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - first/validation: 80ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_16 - median: 76ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - first/validation: 96ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_32 - median: 90ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - first/validation: 129ms
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - validation: SUCCESS
+DaCe CPU - auto_opt_omp_tasking_chunking_absolute_64 - median: 121ms
+Failed: 1 out of 46
+mandelbrot2
